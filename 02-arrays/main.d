@@ -9,7 +9,9 @@ void main() {
     writeln("the sum of", arr, " is ", sum(arr));
 }
 
-int sum(int[] data) {
+// the 'in' keyword suggests you can not modify the array or its contents
+// or it will be a compile error. 
+int sum(in int[] data) {
 
     int total = 0;
 
